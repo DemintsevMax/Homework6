@@ -37,12 +37,17 @@ public class Main {
             System.out.println(i + " Месяц сумма накоплений равна " + total + " рублей");
         }
         System.out.println("Task 9");
-        int salary = 29000;
-        int total = 0;
         for (int i = 0; i <= 12; i++) {
             total = total + total / 100;
             total = total + salary;
             System.out.println(i + " Месяц сумма накоплений равна " + total + " рублей");
+        }
+        System.out.println("Task 10");
+        int multiplierOne = 2;
+        int multipliesTwo = 1;
+        for (multipliesTwo = 1; multipliesTwo <= 10; multipliesTwo++) {
+            int total2 = multiplierOne * multipliesTwo;
+            System.out.println(multiplierOne + "*" + multipliesTwo + "=" + total2);
         }
     }
 }
