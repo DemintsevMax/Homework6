@@ -5,6 +5,8 @@ public class Main {
             System.out.println(i);
         }
         System.out.println("Task 2");
-        for ()
+        for (int i = 10; i >= 0; i--) {
+            System.out.println(i);
+        }
     }
 }
